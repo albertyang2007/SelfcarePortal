@@ -168,7 +168,7 @@
 	</ul>	 		
 	
       <footer>
-        <p>&copy; Kay Zhou;  Ten Tan; Albert Yang; Connie Xia; Caspar Leng</p>
+        <p>&copy; /// </p>
       </footer>
  </div>
   

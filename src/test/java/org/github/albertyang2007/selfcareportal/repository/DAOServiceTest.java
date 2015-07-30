@@ -43,7 +43,7 @@ public class DAOServiceTest {
 	public void testAddUserAlreadyExists(){
 		String userId = "existing_user";
 		String password = "123456";
-		String nickName = "Kay Zhou";		
+		String nickName = "Nick Name";		
 		User user = service.addUser(userId, password, nickName);
 		assertThat(user,nullValue());	
 	}
@@ -171,9 +171,9 @@ public class DAOServiceTest {
 	
 	@Before
 	public void initDB() {
-		service.addUser("existing_user", "123456", "Kay Zhou");
-		service.addUser("order_user", "123456", "Ten Tan");
-		service.addUser("no_order_user", "123456", "Albert Yang");
+		service.addUser("existing_user", "123456", "Nick Name");
+		service.addUser("order_user", "123456", "Nick Name2");
+		service.addUser("no_order_user", "123456", "Nick Name3");
 		ArrayList<Product> products = new ArrayList<Product>();
 		products.add(new Product("1548","iPhone6",8674.0,false));
 		products.add(new Product("3364","iPad5",2674.0,true));
