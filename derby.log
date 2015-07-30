@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Thu Dec 05 15:12:29 CST 2013:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.1.1 - (1458268): instance a816c00e-0142-c199-c4b7-000002cfa180 
+on database directory C:\myFolder\workspace_je\SelfcarePortal\target\build\derby with class loader sun.misc.Launcher$AppClassLoader@4511e86f 
+Loaded from file:/C:/myFolder/software/Maven/repository/org/apache/derby/derby/10.10.1.1/derby-10.10.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.7.0_45-b18
+user.dir=C:\myFolder\workspace_je\SelfcarePortal
+os.name=Windows 7
+os.arch=amd64
+os.version=6.1
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
